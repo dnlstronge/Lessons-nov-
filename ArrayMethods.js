@@ -27,3 +27,12 @@ console.log(ages)
 
 /* filter returned benito and mackers who are both 45, this is because
 the return statement in ages was true, I say do you follow.....*/
+
+// and if I log the original array it should remain unchanged right?
+
+console.log(newArray)
+
+//Bingo!
+
+
+//okay now what about the Map method?
