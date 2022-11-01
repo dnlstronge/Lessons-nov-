@@ -35,4 +35,15 @@ console.log(newArray)
 //Bingo!
 
 
-//okay now what about the Map method?
+//okay now what about the Map method? hmmm I want only names this time:
+
+
+const stringsonly = newArray.map((callwhatever) => {
+  return callwhatever.name;
+})
+
+//okay so now log only the names: 
+
+console.log(stringsonly);
+
+//yay. 
