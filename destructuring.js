@@ -11,4 +11,8 @@ const names = person.firstName;
 
 console.log(names)
 
+// now do the same for favoorite color, and log both. 
 
+const colors = person.favColor;
+
+console.log(names, colors);
