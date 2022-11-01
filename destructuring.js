@@ -16,3 +16,18 @@ console.log(names)
 const colors = person.favColor;
 
 console.log(names, colors);
+
+
+
+// okay now create an array and restructure some stuff from that like:) then i'll log to the console
+
+
+const newArray = [55, 65, 75, 85, 45];
+
+// i'll try to log the first 4 numbers: 
+
+const [a, b, c, d] = newArray
+
+console.log(a, b, c, d)
+
+//cool
