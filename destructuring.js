@@ -30,4 +30,23 @@ const [a, b, c, d] = newArray
 
 console.log(a, b, c, d)
 
-//cool
+//cool, now i'll try something a bit more practical: 
+
+const calculates = (a, b) => {
+ return {
+   sum: a + b,
+   diff: Math.abs(a - b),
+   prod: a  * b,
+}
+}
+// i'll get sum and product from these: 
+
+const {sum, prod, diff} = calculates(34, 94);
+// this heres destructuring!
+console.log(sum); 
+
+console.log(prod);
+
+// and finally the difference: 
+
+console.log(diff);
